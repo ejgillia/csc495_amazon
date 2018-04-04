@@ -29,3 +29,6 @@ states =df["State"].tolist()
 print states
 df1 = pd.read_csv('C:\Users\pilanisp\Documents\Personal\Sem 4\DDDM\My Project work\csv_city_list.txt', delimiter="|")
 print df1
+writer = ExcelWriter('statewise_cnbc_ranking.xlsx')
+df.to_excel(writer)
+writer.save()
