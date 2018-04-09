@@ -22,6 +22,10 @@ city_list = pd.read_csv(amazon_city_file, names=['state', 'city', 'MSA', 'is_top
 education_df_places = education_df.loc[education_df['geo_sumlevel'] == 'place']
 #city_commute_df = city_commute_df.drop(['index'], axis=1)
 
+cs_filter = ['information', 'computer', 'software', 'network', 'database', 'web', 'computing']
+
+education_df_filtered_place_degree = education_df_places.loc[education_df_places['Degree'].str.contains('|'.join(cs_filter), case=False)]
+
 city = []
 state = []
 
@@ -86,4 +90,18 @@ abbrev_to_state = {v: k for k, v in us_state_abbrev.items()}
 state = []
 city = []
 
+for index, row in education_df_filtered_place_degree.iterrows():
+    temp1 = row['Name']
+    temp = temp1.split(', ')
+    city.append(temp[0])
+    for item in temp:
+        if len(item) == 2:
+            state.append(abbrev_to_state[item])
+        
+education_df_filtered_place_degree['City'] = city
+education_df_filtered_place_degree['State'] = state
+
+relevant_city_ed_data = education_df_filtered_place_degree.loc[]
+    
+    
 
