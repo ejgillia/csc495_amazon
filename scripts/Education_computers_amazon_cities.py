@@ -100,8 +100,12 @@ for index, row in education_df_filtered_place_degree.iterrows():
         
 education_df_filtered_place_degree['City'] = city
 education_df_filtered_place_degree['State'] = state
+#relevant_data = education_df_filtered_place_degree.isin(city_list)
+#print(city_list)
+relevant = education_df_filtered_place_degree[education_df_filtered_place_degree["City"].isin(city_list["city"])]
 
-relevant_city_ed_data = education_df_filtered_place_degree.loc[]
+
+        
     
     
 
