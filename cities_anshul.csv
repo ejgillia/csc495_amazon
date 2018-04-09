@@ -1,0 +1,152 @@
+# state|city|MSA|is_top_twenty|diversity_rank|colleges|QoL
+Alabama|Birmingham|13820|false|395|118|172.01
+Alaska|Anchorage|11260|false|120||180.33
+Alberta, Canada|Calgary|?|false|||188.5
+Alberta, Canada|Edmonton|?|false|||177.26
+Arizona|Greater Phoenix|38060|false|55|40|159.57
+British Columbia, Canada|Vancouver|?|false|||169.59
+California|Cal Poly Pomona-Fairplex-Pomona|11244|false||33.8|
+California|Concord-Freemont-Oakland-Richmond-San Francisco|36084|false|7|11.66|
+California|Fresno|23420|false|58||141.41
+California|Irvine|11244|false||51|209.91
+California|Long Beach-Huntington Beach|11244|false|24|33.8|176.98
+California|Los Angeles|11244|true|20|44.8|148.77
+California|Sacramento|40900|false|18|30|193.82
+California|San Diego-Chula Vista|41740|false|17|59.25|199.98
+California|San Jose|41940|false|8|57.25|180.35
+Chihuahua, Mexico|Details not known| ?|false|||149.08
+Colorado|Denver|19740|True|84|98.25|170.9
+Connecticut|Bridgeport-New Haven|71950|false|15|40.66|184.31
+Connecticut|Danbury|72850|false|40|46.2|
+Connecticut|Greater Stamford|71950|false|23|52.2|
+Connecticut|Greater Hartford|73450|false|32|52|158.64
+Connecticut|Waterbury|78700|false|46|41|
+Delaware|Fairfax|72400|false|||
+Delaware|Wilmington|48864|false|193|62|109.69
+Florida|Manatee-Sarasota|35840|false|||
+Florida|Orlando|36740|false|26|82|176.25
+Florida|South Florida (Miami-Dade, Broward, Palm Beach)|33124|true|179|99|149.49
+Florida|Tampa-St. Petersburg|45300|false|60|110|192.84
+Georgia|Metro Atlanta|12060|true|194|4|171.29
+Georgia|Stonecrest|12060|true|||
+Hidalgo, Mexico|Details not known|0|False|||
+Idaho|Submitted a statewide bid|0|False|||
+Illinois|Chicago|16974|True|39|51|160.99
+Indiana|Gary-Hammond|23844|False|411|15|
+Indiana|Indianapolis-Fishers|26900|True|203|61|162.74
+Iowa|Greater Des Moines|19780|False|222|40|198.11
+Kansas|Kansas City|28140|False|62|78|
+Kentucky|Louisville|31140|False|309|125|174.47
+Louisiana|The state declined to reveal details of any bids placed by or within Louisiana| ?||||
+Maine|Brunswick|0|False|||
+Maine|Scarborough|0|False||125|
+Manitoba, Canada|Winnipeg|0|False|||148.6
+Maryland|Baltimore|12580|False|269|77.71|158.32
+Maryland|Charles County|47894|False||53.5|
+Maryland|Montgomery County|43524|True||40.33|
+Maryland|Prince George&rsquo;s County|0|False||40.33|
+Massachusetts|Boston|14460|True|19|60.33|177.79
+Massachusetts|Everett|78100|False||50.75|
+Massachusetts|Fall River|39300|False|234|58.375|
+Massachusetts|Foxborough|71654|False||65.3|
+Massachusetts|Gardner|74500|False||53.375|
+Massachusetts|Holyoke|78100|False||61|
+Massachusetts|Lawrence-Haverhill-Andover-Methuen-North Andover|74204|False|||
+Massachusetts|Lee|0|False||45.5|
+Massachusetts|Leominster|74500|False||53.675|
+Massachusetts|Lowell-Billerica-Tewksbury|74804|False|30||
+Massachusetts|Lynn|0|False|22|59|
+Massachusetts|Marlborough|73104|False||50.75|
+Massachusetts|New Bedford|75550|False||77|
+Massachusetts|Northborough|79600|False||52.8|
+Massachusetts|Peabody|76524|False||61.375|
+Massachusetts|Pittsfield|76600|False||45.5|
+Massachusetts|Quincy|71654|False|105|60.33|
+Massachusetts|Somerville|73654|False||50.75|
+Massachusetts|Springfield|78100|False|52|61|169.41
+Massachusetts|Taunton|78254|False||65.3|
+Massachusetts|Union Point-Abington-Rockland-Weymouth|71654|False|||
+Massachusetts|Waltham|71654|False||50.75|
+Massachusetts|Westborough|79600|False||52.8|
+Massachusetts|Worcester|79600|False|77|52.8|163.87
+Michigan|Detroit-Windsor (Canada and Michigan)|0|False|394||129.61
+Michigan|Grand Rapids|34340|False|206||204.5
+Minnesota|Minneapolis-Saint Paul|33460|False|132||187.56
+Mississippi|At least one bid was submitted; details of it are unknown|0|False|||
+Missouri|Kansas City|28140|False|182|38.5|188.21
+Missouri|St. Louis|41180|False|235||184.91
+Missouri|Also submitted a statewide bid|0|False|||
+Nebraska|Omaha|36540|False|214|82|193.86
+Nevada|Las Vegas|29820|False|35|137|160.93
+New Hampshire|Londonderry|75404|False|473|61.375|
+New Hampshire|Manchester|74950|False|277|61.428|
+New Jersey|Atlantic City|12100|False|||
+New Jersey|Bayonne|0|False||58.42|
+New Jersey|Camden County|15804|False|95||
+New Jersey|Jersey City|35614|False|1|58.42|151.93
+New Jersey|New Brunswick|0|False||57|
+New Jersey|Newark|35084|True|47|58.42|129.21
+New Jersey|Trenton|45940|False|74|56.111|
+New Jersey|West Windsor-Mercer County|0|False|||
+New Mexico|El Paso-Borderplex Alliance|0|False|246||
+New Mexico|Santa Teresa-San Jeronimo (New Mexico and Mexico)|0|False|||
+New York|Albany|10580|False|170|30|177.76
+New York|Buffalo-Rochester|40380|False|164||179.9
+New York|Mount Vernon|35620|False|153|58.375|
+New York|New Rochelle|35620|False|51|58.375|
+New York|New York City-Long Island-Hudson Valley|35620|True|6||137.77
+New York|Syracuse-Utica|45060|False|149||148.67
+New York|Westchester|35614|False||57.375|
+North Carolina|Charlotte-York County|16740|False|79||189.27
+North Carolina|Greensboro|24660|False|157|78.5|187.36
+North Carolina|Hickory|25860|False||82|
+North Carolina|Raleigh|39580|True|126|27|216.34
+Nova Scotia, Canada|Halifax|0|FALSE|||173.08
+Ohio|Cincinnati-Dayton|19380|False|263||177.24
+Ohio|Cleveland|17460|False|207|131.333|160.51
+Ohio|Columbus|18140|True|190|30|193.23
+Ohio|Toledo-Maumee|45780|False|308||141.98
+Oklahoma|Oklahoma City|36420|False|117|82|197.22
+Oklahoma|Tulsa|46140|False|134|137|188.68
+Ontario, Canada|Detroit-Windsor (Canada and Michigan)|0|False|394||129.1
+Ontario, Canada|Hamilton|0|False|||169.25
+Ontario, Canada|Ottawa-Gatineau|0|False|||200.21
+Ontario, Canada|Sault Ste. Marie (Canada and Michigan)|0|False|||
+Ontario, Canada|Simcoe County|0|False|||
+Ontario, Canada|Toronto|0|True|||160.49
+Oregon|Portland|38900|False|183|137|189.56
+Pennsylvania|Delaware County|34620|False|||
+Pennsylvania|Harrisburg|25420|False|111||
+Pennsylvania|Lehigh Valley|10900|False||53.42|
+Pennsylvania|Philadelphia|37964|True|104|53.75|151.59
+Pennsylvania|Pittsburgh|38300|True|272|28.5|165.83
+Pennsylvania|Northeast Pennsylvania|0|False|||
+Puerto Rico|Has declined to reveal details|0|False|||
+Quebec, Canada|Greater Montreal|0|False|||197.53
+Quer&eacute;taro, Mexico Details not known|Mexico|0|FALSE|||151.02
+Rhode Island|East Providence|77200|False|281|58.9|
+Rhode Island|North Kingstown|77200|False||87|
+Rhode Island|Pawtucket-Central Falls|77200|False|41||
+Rhode Island|Providence|77200|False|13|58.9|177.2
+Rhode Island|Richmond|77200|False||87|
+Rhode Island|Warwick|77200|False|446|59.222|
+Rhode Island|Woonsocket|77200|False|169|64.909|
+South Carolina|Greenville-Spartanburg|24860|False|254||193.92
+Tennessee|Knoxville|28940|False|334|61|174.36
+Tennessee|Memphis|32820|False|270|162|148.85
+Tennessee|Nashville|34980|True|147|16.5|184
+Texas|Austin|12420|True|73|5|192.08
+Texas|Dallas-Fort Worth|19124|True|44||189.14
+Texas|Frisco|0|False||72.5|
+Texas|Houston|26420|False|28|33.666|172.89
+Texas|Milam County|0|False|||
+Utah|Submitted a statewide bid|0|False|||
+Virginia|Alexandria-Arlington-Loudoun-Fairfax (Northern Virginia)|47894|False|36||184.39
+Virginia|Great Richmond|40060|FALSE|209||192.53
+Virginia|Hampton Roads|47260|FALSE|205||
+Virginia|Northern Virginia|0|True||81.75|
+Washington|Pudget Sound Region|0|False|||
+Washington|Tacoma-Pierce County|42660|False|127||166.97
+Washington, DC|NA|47894|True|103||168.7
+Wisconsin|Madison|31540|False|257|14|212.01
+Wisconsin|Milwaukee|33340|False|114|100|167.29
