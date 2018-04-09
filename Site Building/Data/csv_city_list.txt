@@ -1,0 +1,164 @@
+﻿# state | city | MSA | is_top_twenty
+Alabama|Birmingham|13820|false
+Alaska|Anchorage|11260|false
+Alberta, Canada|Calgary|?|false
+Alberta, Canada|Edmonton|?|false
+Arizona|Greater Phoenix|38060|false
+British Columbia, Canada|Vancouver|?|false
+California|Cal Poly Pomona-Fairplex-Pomona|11244|false
+California|Concord-Freemont-Oakland-Richmond-San Francisco|36084|false
+California|Fresno|23420|false
+California|Irvine|11244|false
+California|Long Beach-Huntington Beach|11244|false
+California|Los Angeles|11244|true
+California|Sacramento|40900|false
+California|San Diego-Chula Vista|41740|false
+California|San Jose|41940|false
+Chihuahua, Mexico|Details not known| ?|false
+Colorado|Denver|19740|True
+Connecticut|Bridgeport-New Haven|71950|false
+Connecticut|Danbury|72850|false
+Connecticut|Greater Stamford|71950|false
+Connecticut|Greater Hartford|73450|false
+Connecticut|Waterbury|78700|false
+Delaware|Fairfax|72400|false
+Delaware|Wilmington|48864|false
+Florida|Manatee-Sarasota|35840|false
+Florida|Orlando|36740|false
+Florida|South Florida (Miami-Dade, Broward, Palm Beach)|33124|true
+Florida|Tampa-St. Petersburg|45300|false
+Georgia|Metro Atlanta|12060|true
+Georgia|Stonecrest|12060|true
+
+
+Hidalgo, Mexico|Details not known|00000|False
+Idaho|Submitted a statewide bid|00000|False
+Illinois|Chicago|16974|True
+Indiana|Gary-Hammond|23844|False
+Indiana|Indianapolis-Fishers|26900|True
+Iowa|Greater Des Moines|19780|False
+Kansas|Kansas City|28140|False
+Kentucky|Louisville|31140|False
+Louisiana|The state declined to reveal details of any bids placed by or within Louisiana| ?
+Maine|Brunswick|00000|False
+Maine|Scarborough|00000|False
+Manitoba, Canada|Winnipeg|00000|False
+Maryland|Baltimore|12580|False
+Maryland|Charles County|47894|False
+Maryland|Montgomery County|43524|True
+Maryland|Prince George&rsquo;s County|00000|False
+Massachusetts|Boston|14460|True
+Massachusetts|Everett|78100|False
+Massachusetts|Fall River|39300|False
+Massachusetts|Foxborough|71654|False
+Massachusetts|Gardner|74500|False
+Massachusetts|Holyoke|78100|False
+Massachusetts|Lawrence-Haverhill-Andover-Methuen-North Andover|74204|False
+Massachusetts|Lee|00000|False
+Massachusetts|Leominster|74500|False
+Massachusetts|Lowell-Billerica-Tewksbury|74804|False
+Massachusetts|Lynn|00000|False
+Massachusetts|Marlborough|73104|False
+Massachusetts|New Bedford|75550|False
+Massachusetts|Northborough|79600|False
+
+
+Massachusetts|Peabody|76524|False
+Massachusetts|Pittsfield|76600|False
+Massachusetts|Quincy|71654|False
+Massachusetts|Somerville|73654|False
+Massachusetts|Springfield|78100|False
+Massachusetts|Taunton|78254|False
+Massachusetts|Union Point-Abington-Rockland-Weymouth|71654|False
+Massachusetts|Waltham|71654|False
+Massachusetts|Westborough|79600|False
+Massachusetts|Worcester|79600|False
+Michigan|Detroit-Windsor (Canada and Michigan)|00000|False
+Michigan|Grand Rapids|34340|False
+Minnesota|Minneapolis-Saint Paul|33460|False
+Mississippi|At least one bid was submitted; details of it are unknown|00000|False
+Missouri|Kansas City|28140|False
+Missouri|St. Louis|41180|False
+Missouri|Also submitted a statewide bid|00000|False
+Nebraska|Omaha|36540|False
+Nevada|Las Vegas|29820|False
+New Hampshire|Londonderry|75404|False
+New Hampshire|Manchester|74950|False
+New Jersey|Atlantic City|12100|False
+New Jersey|Bayonne|00000|False
+New Jersey|Camden County|15804|False
+New Jersey|Jersey City|35614|False
+New Jersey|New Brunswick|00000|False
+New Jersey|Newark|35084|True
+New Jersey|Trenton|45940|False
+New Jersey|West Windsor-Mercer County|00000|False
+New Mexico|El Paso-Borderplex Alliance|00000|False
+New Mexico|Santa Teresa-San Jeronimo (New Mexico and Mexico)|00000|False
+
+
+New York|Albany|10580|False
+New York|Buffalo-Rochester|40380|False
+New York|Mount Vernon|35620|False
+New York|New Rochelle|35620|False
+New York|New York City-Long Island-Hudson Valley|35620|True
+New York|Syracuse-Utica|45060|False
+New York|Westchester|35614|False
+North Carolina|Charlotte-York County|16740|False
+North Carolina|Greensboro|24660|False
+North Carolina|Hickory|25860|False
+North Carolina|Raleigh|39580|True
+Nova Scotia, Canada|Halifax|False
+Ohio|Cincinnati-Dayton|19380|False
+Ohio|Cleveland|17460|False
+Ohio|Columbus|18140|True
+Ohio|Toledo-Maumee|45780|False
+Oklahoma|Oklahoma City|36420|False
+Oklahoma|Tulsa|46140|False
+Ontario, Canada|Detroit-Windsor (Canada and Michigan)|00000|False
+Ontario, Canada|Hamilton|00000|False
+Ontario, Canada|Ottawa-Gatineau|00000|False
+Ontario, Canada|Sault Ste. Marie (Canada and Michigan)|00000|False
+Ontario, Canada|Simcoe County|00000|False
+Ontario, Canada|Toronto|00000|True
+Oregon|Portland|38900|False
+Pennsylvania|Delaware County|34620|False
+Pennsylvania|Harrisburg|25420|False
+Pennsylvania|Lehigh Valley|10900|False
+Pennsylvania|Philadelphia|37964|True
+Pennsylvania|Pittsburgh|38300|True
+Pennsylvania|Northeast Pennsylvania|00000|False
+
+
+
+
+
+
+Puerto Rico|Has declined to reveal details|00000|False
+Quebec, Canada|Greater Montreal|00000|False
+Querétaro, Mexico|Details not known|00000|False
+Rhode Island|East Providence|77200|False
+Rhode Island|North Kingstown|77200|False
+Rhode Island|Pawtucket-Central Falls|77200|False
+Rhode Island|Providence|77200|False
+Rhode Island|Richmond|77200|False
+Rhode Island|Warwick|77200|False
+Rhode Island|Woonsocket|77200|False
+South Carolina|Greenville-Spartanburg|24860|False
+Tennessee|Knoxville|28940|False
+Tennessee|Memphis|32820|False
+Tennessee|Nashville|34980|True
+Texas|Austin|12420|True
+Texas|Dallas-Fort Worth|19124|True
+Texas|Frisco|00000|False
+Texas|Houston|26420|False
+Texas|Milam County|00000|False
+Utah|Submitted a statewide bid|00000|False
+Virginia|Alexandria-Arlington-Loudoun-Fairfax (Northern Virginia)|47894|False
+Virginia|Great Richmond|40060
+Virginia|Hampton Roads|47260
+Virginia|Northern Virginia|00000|True
+Washington|Pudget Sound Region|00000|False
+Washington|Tacoma-Pierce County|42660|False
+Washington, DC|NA|47894|True
+Wisconsin|Madison|31540|False
+Wisconsin|Milwaukee|33340|False
