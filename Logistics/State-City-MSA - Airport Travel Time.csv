@@ -1,0 +1,163 @@
+State |City|MSA|Travel Time|||||||
+Alabama |Birmingham|13820|16|||||||
+Alaska|Anchorage|11260|17||||||| 
+Alberta, Canada|Calgary||24|||||||
+Alberta, Canada|Edmonton||35|||||||
+Arizona |Greater Phoenix|38060|17|||||||
+British Columbia, Canda|Vancouver||25|||||||
+California|Cal Poly Pomona-Fairplex-Pomona|11244|11|||||||
+California|Concord-Freemont-Oakland-Richmond-San Francisco|36084|21|||||||
+California|Fresno|23420|16|||||||
+California|Irvine|11244|10|||||||
+California|Long Beach-Huntington Beach|11244|13|||||||
+California|Los Angeles|11244|35|||||||
+California|Sacramento|40900|20|||||||
+California|San Diego-Chula Vista|41740|9|||||||
+California|San Jose|41940|10|||||||
+Chihuahua, Mexico||||||||||
+Colorado|Denver|19740|38|||||||
+Connecticut|Bridgeport-New Haven|71950|14|||||||
+Connecticut|Danbury|72850|10|||||||
+Connecticut|Greater Stamford|71950|30|||||||
+Connecticut|Greater Hartford|73450|18|||||||
+Connecticut|Waterbury|78700|51|||||||
+Delaware|Fairfax|72400|20|||||||
+Delaware|Wilmington|48864|30|||||||
+Florida|Manatee-Sarasota|35840||||||||
+Florida|Orlando|36740|29|||||||
+Florida|South Florida (Miami-Dade, Broward, Palm Beach)|33124|18|||||||
+Florida|Tampa-St. Petersburg|45300|14|||||||
+Georgia|Metro Atlanta|12060|23|||||||
+Georgia|Stonecrest|12060|30|||||||
+||||||||||
+Hidalgo, Mexico|||90|||||||
+Idaho||||||||||
+Illinois|Chicago|16974|39|||||||
+Indiana|Gary-Hammond|23844|17|||||||
+Indiana|Indianapolis-Fishers|26900|23|||||||
+Iowa|Greater Des Moines|19780|15|||||||
+Kansas|Kansas City|28140|25|||||||
+Kentucky|Louisville|31140|85|||||||
+Louisiana||||||||||
+Maine|Brunswick||34|||||||
+Maine|Scarborough||12|||||||
+Manitoba, Canada|Winnipeg||14|||||||
+Maryland|Baltimore|12580|19|||||||
+Maryland|Charles County|47894|77|||||||
+Maryland|Montgomery County|43524|46|||||||
+Maryland|Prince George&rsquo;s County| |40|||||||
+Massachusetts|Boston|14460|14|||||||
+Massachusetts|Everett|78100|15|||||||
+Massachusetts|Fall River|39300|50|||||||
+Massachusetts|Foxborough|71654|44|||||||
+Massachusetts|Gardner|74500|74|||||||
+Massachusetts|Holyoke|78100|91|||||||
+Massachusetts|Lawrence-Haverhill-Andover-Methuen-North Andover|74204|42|||||||
+Massachusetts|Lee||115|||||||
+Massachusetts|Leominster|74500|64|||||||
+Massachusetts|Lowell-Billerica-Tewksbury|74804|42|||||||
+Massachusetts|Lynn||22|||||||
+Massachusetts|Marlborough|73104|40|||||||
+Massachusetts|New Bedford|75550|66|||||||
+Massachusetts|Northborough|79600|42|||||||
+||||||||||
+Massachusetts|Peabody|76524|33|||||||
+Massachusetts|Pittsfield|76600||||||||
+Massachusetts|Quincy|71654|28|||||||
+Massachusetts|Somerville|73654|20|||||||
+Massachusetts|Springfield|78100|88|||||||
+Massachusetts|Taunton|78254|50|||||||
+Massachusetts|Union Point-Abington-Rockland-Weymouth|71654|38|||||||
+Massachusetts|Waltham|71654|24|||||||
+Massachusetts|Westborough|79600|40|||||||
+Massachusetts|Worcester|79600|15|||||||
+Michigan|Detroit-Windsor (Canada and Michigan)||23|||||||
+Michigan|Grand Rapids|34340|120|||||||
+Minnesota|Minneapolis-Saint Paul|33460|23|||||||
+Mississippi||||||||||
+Missouri|Kansas City|28140|25|||||||
+Missouri|St. Louis|41180|23|||||||
+Missouri||||||||||
+Nebraska|Omaha|36540|8|||||||
+Nevada|Las Vegas|29820|12|||||||
+New Hampshire|Londonderry|75404|13|||||||
+New Hampshire|Manchester|74950|12|||||||
+New Jersey|Atlantic City|12100|19|||||||
+New Jersey|Bayonne||17|||||||
+New Jersey|Camden County|15804|45|||||||
+New Jersey|Jersey City|35614|13|||||||
+New Jersey|New Brunswick||27|||||||
+New Jersey|Newark|35084|20|||||||
+New Jersey|Trenton|45940|12|||||||
+New Jersey|West Windsor-Mercer County||11|||||||
+New Mexico|El Paso-Borderplex Alliance|||||||||
+New Mexico|Santa Teresa-San Jeronimo|||||||||
+||||||||||
+New York|Albany|10580|17|||||||
+New York|Buffalo-Rochester|40380|10|||||||
+New York|Mount Vernon|35620|37|||||||
+New York|New Rochelle|35620|32|||||||
+New York|New York City-Long Island-Hudson Valley|35620|58|||||||
+New York|Syracuse-Utica|45060|11|||||||
+New York|Westchester|35614|50|||||||
+North Carolina|Charlotte-York County|16740|17|||||||
+North Carolina|Greensboro|24660|17|||||||
+North Carolina|Hickory|25860|50|||||||
+North Carolina|Raleigh|39580|28|||||||
+Nova Scotia, Canada||||||||||
+Ohio|Cincinnati-Dayton|19380|16|||||||
+Ohio|Cleveland|17460|17|||||||
+Ohio|Columbus|18140|12|||||||
+Ohio|Toledo-Maumee|45780|20|||||||
+Oklahoma|Oklahoma City|36420|13|||||||
+Oklahoma|Tulsa|46140|14|||||||
+Ontario, Canada|Detroit-Windsor||17|||||||
+Ontario, Canada|Hamilton||38|||||||
+Ontario, Canada|Ottawa-Gatineau||16|||||||
+Ontario, Canada|Sault Ste. Marie (Canada and Michigan)|||||||||
+Ontario, Canada|Simcoe County||25|||||||
+Ontario, Canada|Toronto||25|||||||
+Oregon|Portland|38900|18|||||||
+Pennsylvania|Delaware County|34620|31|||||||
+Pennsylvania|Harrisburg|25420|17|||||||
+Pennsylvania|Lehigh Valley|10900|13|||||||
+Pennsylvania|Philadelphia|37964|19|||||||
+Pennsylvania|Pittsburgh|38300|26|||||||
+Pennsylvania|Northeast Pennsylvania||61|||||||
+||||||||||
+Puerto Rico|||111|||||||
+Quebec, Canada|Greater Montreal||30|||||||
+Mexico|Quer&eacute;taro|||||||||
+Rhode Island|East Providence|77200|11|||||||
+Rhode Island|North Kingstown|77200|19|||||||
+Rhode Island|Pawtucket-Central Falls|77200|16|||||||
+Rhode Island|Providence|77200|15|||||||
+Rhode Island|Richmond|77200|26|||||||
+Rhode Island|Warwick|77200|10|||||||
+Rhode Island|Woonsocket|77200|28|||||||
+South Carolina|Greenville-Spartanburg|24860|14|||||||
+Tennessee|Knoxville|28940|15|||||||
+Tennessee|Memphis|32820|12|||||||
+Tennessee|Nashville|34980|18|||||||
+Texas|Austin|12420|24|||||||
+Texas|Dallas-Fort Worth|19124|25|||||||
+Texas|Frisco||24|||||||
+Texas|Houston|26420|30|||||||
+Texas|Milam County|||||||||
+Utah||||||||||
+Virginia|Alexandria-Arlington-Loudoun-Fairfax (Northern Virginia)|47894|120|||||||
+Virginia|Great Richmond|40060|13|||||||
+Virginia|Hampton Roads|47260|24|||||||
+Virginia|Northern Virginia||25|||||||
+Washington|Pudget Sound Region||109|||||||
+Washington|Tacoma-Pierce County|42660|23|||||||
+Washington, DC||47894|17|||||||
+Wisconsin|Madison|31540|81|||||||
+Wisconsin|Milwaukee|33340|14|||||||
+||||||||||
+||||||||||
+||||||||||
+||||||||||
+||||||||||
+||||||||||
+||||||||||
