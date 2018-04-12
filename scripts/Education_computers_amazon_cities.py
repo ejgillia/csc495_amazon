@@ -4,6 +4,7 @@ Imports data from a CSV into a pandas dataframe
 @author: Marvin
 """
 import pandas as pd
+import math
 #Actually imports the data from a CSV while specifying the header names, 
 #the separator, how many rows to skip, and the NA values.
 #skiprows skips the header row
@@ -26,8 +27,6 @@ cs_filter = ['information', 'computer', 'software', 'network', 'database', 'web'
 
 education_df_filtered_place_degree = education_df_places.loc[education_df_places['Degree'].str.contains('|'.join(cs_filter), case=False)]
 
-city = []
-state = []
 
 us_state_abbrev = {
     'Alabama': 'AL',
@@ -100,10 +99,34 @@ for index, row in education_df_filtered_place_degree.iterrows():
         
 education_df_filtered_place_degree['City'] = city
 education_df_filtered_place_degree['State'] = state
-#relevant_data = education_df_filtered_place_degree.isin(city_list)
-#print(city_list)
-relevant = education_df_filtered_place_degree[education_df_filtered_place_degree["City"].isin(city_list["city"])]
 
+grads_sum = []
+
+for city in city_list.itertuples():
+    rel_state = city[1]
+    rel_city = city[2]
+    grads = 0
+    for row in education_df_filtered_place_degree.itertuples():
+        num_grads = 0
+        temp_city = row[5]
+        temp_state = row[6]
+        if ((temp_state == rel_state) and ((temp_city == rel_city) or (temp_city in rel_city))):
+            num_grads = row[4]
+            if (not math.isnan(num_grads)):
+                grads += num_grads
+            
+    grads_sum.append(grads)
+
+city_list['Total Graduates'] = grads_sum
+
+csv_out = 'D:\\Users\Marvin\\Git\\csc495_amazon\\total_graduates_amazon_cities.csv'
+city_list.to_csv(csv_out, sep='|', na_rep='?', 
+        columns=['state', 'city', 'MSA', 'is_top_twenty', 'Total Graduates'])
+#for row in education_df_filtered_place_degree.iterrows():
+    
+
+
+        
 
         
     

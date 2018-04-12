@@ -1,0 +1,152 @@
+|state|city|MSA|is_top_twenty|Total Graduates
+0|Alabama|Birmingham|13820|False|870.0
+1|Alaska|Anchorage|11260|False|462.0
+2|Alberta, Canada|Calgary|?|False|0.0
+3|Alberta, Canada|Edmonton|?|False|0.0
+4|Arizona|Greater Phoenix|38060|False|1504.0
+5|British Columbia, Canada|Vancouver|?|False|0.0
+6|California|Cal Poly Pomona-Fairplex-Pomona|11244|False|1769.0
+7|California|Concord-Freemont-Oakland-Richmond-San Francisco|36084|False|2047.0
+8|California|Fresno|23420|False|320.0
+9|California|Irvine|11244|False|1892.0
+10|California|Long Beach-Huntington Beach|11244|False|700.0
+11|California|Los Angeles|11244|True|7211.0
+12|California|Sacramento|40900|False|745.0
+13|California|San Diego-Chula Vista|41740|False|4681.0
+14|California|San Jose|41940|False|2848.0
+15|Chihuahua, Mexico|Details not known| ?|False|0.0
+16|Colorado|Denver|19740|True|2218.0
+17|Connecticut|Bridgeport-New Haven|71950|False|879.0
+18|Connecticut|Danbury|72850|False|165.0
+19|Connecticut|Greater Stamford|71950|False|0.0
+20|Connecticut|Greater Hartford|73450|False|259.0
+21|Connecticut|Waterbury|78700|False|246.0
+22|Delaware|Fairfax|72400|False|0.0
+23|Delaware|Wilmington|48864|False|0.0
+24|Florida|Manatee-Sarasota|35840|False|0.0
+25|Florida|Orlando|36740|False|2739.0
+26|Florida|South Florida (Miami-Dade, Broward, Palm Beach)|33124|True|939.0
+27|Florida|Tampa-St. Petersburg|45300|False|2470.0
+28|Georgia|Metro Atlanta|12060|True|4012.0
+29|Georgia|Stonecrest|12060|True|0.0
+30|Hidalgo, Mexico|Details not known|00000|False|0.0
+31|Idaho|Submitted a statewide bid|00000|False|0.0
+32|Illinois|Chicago|16974|True|11412.0
+33|Indiana|Gary-Hammond|23844|False|236.0
+34|Indiana|Indianapolis-Fishers|26900|True|0.0
+35|Iowa|Greater Des Moines|19780|False|195.0
+36|Kansas|Kansas City|28140|False|43.0
+37|Kentucky|Louisville|31140|False|0.0
+38|Louisiana|The state declined to reveal details of any bids placed by or within Louisiana| ?|?|0.0
+39|Maine|Brunswick|00000|False|80.0
+40|Maine|Scarborough|00000|False|57.0
+41|Manitoba, Canada|Winnipeg|00000|False|0.0
+42|Maryland|Baltimore|12580|False|1692.0
+43|Maryland|Charles County|47894|False|0.0
+44|Maryland|Montgomery County|43524|True|0.0
+45|Maryland|Prince George&rsquo;s County|00000|False|0.0
+46|Massachusetts|Boston|14460|True|5334.0
+47|Massachusetts|Everett|78100|False|0.0
+48|Massachusetts|Fall River|39300|False|158.0
+49|Massachusetts|Foxborough|71654|False|0.0
+50|Massachusetts|Gardner|74500|False|222.0
+51|Massachusetts|Holyoke|78100|False|85.0
+52|Massachusetts|Lawrence-Haverhill-Andover-Methuen-North Andover|74204|False|321.0
+53|Massachusetts|Lee|00000|False|0.0
+54|Massachusetts|Leominster|74500|False|0.0
+55|Massachusetts|Lowell-Billerica-Tewksbury|74804|False|1603.0
+56|Massachusetts|Lynn|00000|False|0.0
+57|Massachusetts|Marlborough|73104|False|0.0
+58|Massachusetts|New Bedford|75550|False|0.0
+59|Massachusetts|Northborough|79600|False|0.0
+60|Massachusetts|Peabody|76524|False|0.0
+61|Massachusetts|Pittsfield|76600|False|56.0
+62|Massachusetts|Quincy|71654|False|75.0
+63|Massachusetts|Somerville|73654|False|563.0
+64|Massachusetts|Springfield|78100|False|597.0
+65|Massachusetts|Taunton|78254|False|0.0
+66|Massachusetts|Union Point-Abington-Rockland-Weymouth|71654|False|0.0
+67|Massachusetts|Waltham|71654|False|722.0
+68|Massachusetts|Westborough|79600|False|0.0
+69|Massachusetts|Worcester|79600|False|1077.0
+70|Michigan|Detroit-Windsor (Canada and Michigan)|00000|False|1300.0
+71|Michigan|Grand Rapids|34340|False|300.0
+72|Minnesota|Minneapolis-Saint Paul|33460|False|4579.0
+73|Mississippi|At least one bid was submitted; details of it are unknown|00000|False|0.0
+74|Missouri|Kansas City|28140|False|2084.0
+75|Missouri|St. Louis|41180|False|736.0
+76|Missouri|Also submitted a statewide bid|00000|False|0.0
+77|Nebraska|Omaha|36540|False|1298.0
+78|Nevada|Las Vegas|29820|False|1435.0
+79|New Hampshire|Londonderry|75404|False|0.0
+80|New Hampshire|Manchester|74950|False|1668.0
+81|New Jersey|Atlantic City|12100|False|0.0
+82|New Jersey|Bayonne|00000|False|0.0
+83|New Jersey|Camden County|15804|False|39.0
+84|New Jersey|Jersey City|35614|False|656.0
+85|New Jersey|New Brunswick|00000|False|1410.0
+86|New Jersey|Newark|35084|True|2162.0
+87|New Jersey|Trenton|45940|False|6.0
+88|New Jersey|West Windsor-Mercer County|00000|False|0.0
+89|New Mexico|El Paso-Borderplex Alliance|00000|False|0.0
+90|New Mexico|Santa Teresa-San Jeronimo (New Mexico and Mexico)|00000|False|0.0
+91|New York|Albany|10580|False|829.0
+92|New York|Buffalo-Rochester|40380|False|809.0
+93|New York|Mount Vernon|35620|False|0.0
+94|New York|New Rochelle|35620|False|129.0
+95|New York|New York City-Long Island-Hudson Valley|35620|True|13482.0
+96|New York|Syracuse-Utica|45060|False|2334.0
+97|New York|Westchester|35614|False|0.0
+98|North Carolina|Charlotte-York County|16740|False|2999.0
+99|North Carolina|Greensboro|24660|False|927.0
+100|North Carolina|Hickory|25860|False|153.0
+101|North Carolina|Raleigh|39580|True|3324.0
+102|Nova Scotia, Canada|Halifax|False|?|0.0
+103|Ohio|Cincinnati-Dayton|19380|False|2337.0
+104|Ohio|Cleveland|17460|False|849.0
+105|Ohio|Columbus|18140|True|3350.0
+106|Ohio|Toledo-Maumee|45780|False|571.0
+107|Oklahoma|Oklahoma City|36420|False|893.0
+108|Oklahoma|Tulsa|46140|False|1331.0
+109|Ontario, Canada|Detroit-Windsor (Canada and Michigan)|00000|False|0.0
+110|Ontario, Canada|Hamilton|00000|False|0.0
+111|Ontario, Canada|Ottawa-Gatineau|00000|False|0.0
+112|Ontario, Canada|Sault Ste. Marie (Canada and Michigan)|00000|False|0.0
+113|Ontario, Canada|Simcoe County|00000|False|0.0
+114|Ontario, Canada|Toronto|00000|True|0.0
+115|Oregon|Portland|38900|False|1968.0
+116|Pennsylvania|Delaware County|34620|False|0.0
+117|Pennsylvania|Harrisburg|25420|False|369.0
+118|Pennsylvania|Lehigh Valley|10900|False|0.0
+119|Pennsylvania|Philadelphia|37964|True|4378.0
+120|Pennsylvania|Pittsburgh|38300|True|6587.0
+121|Pennsylvania|Northeast Pennsylvania|00000|False|0.0
+122|Puerto Rico|Has declined to reveal details|00000|False|0.0
+123|Quebec, Canada|Greater Montreal|00000|False|0.0
+124|Querétaro, Mexico|Details not known|00000|False|0.0
+125|Rhode Island|East Providence|77200|False|825.0
+126|Rhode Island|North Kingstown|77200|False|0.0
+127|Rhode Island|Pawtucket-Central Falls|77200|False|0.0
+128|Rhode Island|Providence|77200|False|825.0
+129|Rhode Island|Richmond|77200|False|0.0
+130|Rhode Island|Warwick|77200|False|171.0
+131|Rhode Island|Woonsocket|77200|False|0.0
+132|South Carolina|Greenville-Spartanburg|24860|False|582.0
+133|Tennessee|Knoxville|28940|False|609.0
+134|Tennessee|Memphis|32820|False|937.0
+135|Tennessee|Nashville|34980|True|0.0
+136|Texas|Austin|12420|True|2937.0
+137|Texas|Dallas-Fort Worth|19124|True|2409.0
+138|Texas|Frisco|00000|False|0.0
+139|Texas|Houston|26420|False|3649.0
+140|Texas|Milam County|00000|False|0.0
+141|Utah|Submitted a statewide bid|00000|False|0.0
+142|Virginia|Alexandria-Arlington-Loudoun-Fairfax (Northern Virginia)|47894|False|1865.0
+143|Virginia|Great Richmond|40060|?|1059.0
+144|Virginia|Hampton Roads|47260|?|161.0
+145|Virginia|Northern Virginia|00000|True|0.0
+146|Washington|Pudget Sound Region|00000|False|0.0
+147|Washington|Tacoma-Pierce County|42660|False|1522.0
+148|Washington, DC|?|47894|True|0.0
+149|Wisconsin|Madison|31540|False|2235.0
+150|Wisconsin|Milwaukee|33340|False|1795.0
