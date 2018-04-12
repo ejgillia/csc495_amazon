@@ -1,0 +1,152 @@
+|# state | city | MSA | is_top_twenty|StateTax|LocalSalesTax|Total
+0|Alabama|Birmingham|13820|0.0|4.000%|6.000%|10.000%
+1|Alaska|Anchorage|11260|0.0|0.000%|0.000%|0.000%
+2|Alberta, Canada|Calgary|?|0.0|||
+3|Alberta, Canada|Edmonton|?|0.0|||
+4|Arizona|Greater Phoenix|38060|0.0|5.600%|3.000%|8.600%
+5|British Columbia, Canada|Vancouver|?|0.0|||
+6|California|Cal Poly Pomona-Fairplex-Pomona|11244|0.0|7.250%|1.000%|8.250%
+7|California|Concord-Freemont-Oakland-Richmond-San Francisco|36084|0.0|7.250%|1.000%|8.250%
+8|California|Fresno|23420|0.0|7.250%|0.725%|7.975%
+9|California|Irvine|11244|0.0|7.250%|0.500%|7.750%
+10|California|Long Beach-Huntington Beach|11244|0.0|7.250%|3.000%|10.250%
+11|California|Los Angeles|11244|1.0|7.250%|2.000%|9.250%
+12|California|Sacramento|40900|0.0|7.250%|1.000%|8.250%
+13|California|San Diego-Chula Vista|41740|0.0|7.250%|0.500%|7.750%
+14|California|San Jose|41940|0.0|7.250%|1.500%|8.750%
+15|Chihuahua, Mexico|Details not known| ?|0.0|||
+16|Colorado|Denver|19740|1.0|2.900%|4.750%|7.650%
+17|Connecticut|Bridgeport-New Haven|71950|0.0|0.0635|0.000%|0.0635
+18|Connecticut|Danbury|72850|0.0|0.0635|0.000%|0.0635
+19|Connecticut|Greater Stamford|71950|0.0|0.0635|0.000%|0.0635
+20|Connecticut|Greater Hartford|73450|0.0|0.0635|0.000%|0.0635
+21|Connecticut|Waterbury|78700|0.0|0.0635|0.000%|0.0635
+22|Delaware|Fairfax|72400|0.0|||
+23|Delaware|Wilmington|48864|0.0|||
+24|Florida|Manatee-Sarasota|35840|0.0|6.000%|1.000%|7.000%
+25|Florida|Orlando|36740|0.0|6.000%|0.500%|6.500%
+26|Florida|South Florida (Miami-Dade, Broward, Palm Beach)|33124|1.0|6.000%|1.000%|7.000%
+27|Florida|Tampa-St. Petersburg|45300|0.0|6.000%|1.000%|7.000%
+28|Georgia|Metro Atlanta|12060|1.0|4.000%|4.900%|8.900%
+29|Georgia|Stonecrest|12060|1.0|4.000%|4.900%|8.900%
+30|Hidalgo, Mexico|Details not known|00000|0.0|||
+31|Idaho|Submitted a statewide bid|00000|0.0|6.000%|0.000%|6.000%
+32|Illinois|Chicago|16974|1.0|6.250%|4.000%|10.250%
+33|Indiana|Gary-Hammond|23844|0.0|7.000%|0.000%|7.000%
+34|Indiana|Indianapolis-Fishers|26900|1.0|7.000%|0.000%|7.000%
+35|Iowa|Greater Des Moines|19780|0.0|6.000%|0.000%|6.000%
+36|Kansas|Kansas City|28140|0.0|6.500%|1.000%|7.500%
+37|Kentucky|Louisville|31140|0.0|6.000%|0.000%|6.000%
+38|Louisiana|The state declined to reveal details of any bids placed by or within Louisiana| ?||5.000%|5.000%|10.000%
+39|Maine|Brunswick|00000|0.0|5.500%|0.000%|5.500%
+40|Maine|Scarborough|00000|0.0|5.500%|0.000%|5.500%
+41|Manitoba, Canada|Winnipeg|00000|0.0|||
+42|Maryland|Baltimore|12580|0.0|6.000%|0.000%|6.000%
+43|Maryland|Charles County|47894|0.0|6.000%|0.000%|6.000%
+44|Maryland|Montgomery County|43524|1.0|6.000%|0.000%|6.000%
+45|Maryland|Prince George&rsquo;s County|00000|0.0|6.000%|0.000%|6.000%
+46|Massachusetts|Boston|14460|1.0|6.250%|0.000%|6.250%
+47|Massachusetts|Everett|78100|0.0|6.250%|0.000%|6.250%
+48|Massachusetts|Fall River|39300|0.0|6.250%|0.000%|6.250%
+49|Massachusetts|Foxborough|71654|0.0|6.250%|0.000%|6.250%
+50|Massachusetts|Gardner|74500|0.0|6.250%|0.000%|6.250%
+51|Massachusetts|Holyoke|78100|0.0|6.250%|0.000%|6.250%
+52|Massachusetts|Lawrence-Haverhill-Andover-Methuen-North Andover|74204|0.0|6.250%|0.000%|6.250%
+53|Massachusetts|Lee|00000|0.0|6.250%|0.000%|6.250%
+54|Massachusetts|Leominster|74500|0.0|6.250%|0.000%|6.250%
+55|Massachusetts|Lowell-Billerica-Tewksbury|74804|0.0|6.250%|0.000%|6.250%
+56|Massachusetts|Lynn|00000|0.0|6.250%|0.000%|6.250%
+57|Massachusetts|Marlborough|73104|0.0|6.250%|0.000%|6.250%
+58|Massachusetts|New Bedford|75550|0.0|6.250%|0.000%|6.250%
+59|Massachusetts|Northborough|79600|0.0|6.250%|0.000%|6.250%
+60|Massachusetts|Peabody|76524|0.0|6.250%|0.000%|6.250%
+61|Massachusetts|Pittsfield|76600|0.0|6.250%|0.000%|6.250%
+62|Massachusetts|Quincy|71654|0.0|6.250%|0.000%|6.250%
+63|Massachusetts|Somerville|73654|0.0|6.250%|0.000%|6.250%
+64|Massachusetts|Springfield|78100|0.0|6.250%|0.000%|6.250%
+65|Massachusetts|Taunton|78254|0.0|6.250%|0.000%|6.250%
+66|Massachusetts|Union Point-Abington-Rockland-Weymouth|71654|0.0|6.250%|0.000%|6.250%
+67|Massachusetts|Waltham|71654|0.0|6.250%|0.000%|6.250%
+68|Massachusetts|Westborough|79600|0.0|6.250%|0.000%|6.250%
+69|Massachusetts|Worcester|79600|0.0|6.250%|0.000%|6.250%
+70|Michigan|Detroit-Windsor (Canada and Michigan)|00000|0.0|6.000%|0.000%|6.000%
+71|Michigan|Grand Rapids|34340|0.0|6.000%|0.000%|6.000%
+72|Minnesota|Minneapolis-Saint Paul|33460|0.0|6.875%|0.900%|7.775%
+73|Mississippi|At least one bid was submitted; details of it are unknown|00000|0.0|7.000%|0.000%|7.000%
+74|Missouri|Kansas City|28140|0.0|4.225%|4.125%|8.350%
+75|Missouri|St. Louis|41180|0.0|4.225%|4.454%|8.679%
+76|Missouri|Also submitted a statewide bid|00000|0.0|||
+77|Nebraska|Omaha|36540|0.0|5.500%|1.500%|7.000%
+78|Nevada|Las Vegas|29820|0.0|6.850%|1.300%|8.150%
+79|New Hampshire|Londonderry|75404|0.0|0.000%|0.000%|0.000%
+80|New Hampshire|Manchester|74950|0.0|0.000%|0.000%|0.000%
+81|New Jersey|Atlantic City|12100|0.0|6.875%|0.000%|6.875%
+82|New Jersey|Bayonne|00000|0.0|6.875%|0.000%|6.875%
+83|New Jersey|Camden County|15804|0.0|6.875%|0.000%|6.875%
+84|New Jersey|Jersey City|35614|0.0|6.875%|0.000%|6.875%
+85|New Jersey|New Brunswick|00000|0.0|6.875%|0.000%|6.875%
+86|New Jersey|Newark|35084|1.0|6.875%|0.000%|6.875%
+87|New Jersey|Trenton|45940|0.0|6.875%|0.000%|6.875%
+88|New Jersey|West Windsor-Mercer County|00000|0.0|6.875%|0.000%|6.875%
+89|New Mexico|El Paso-Borderplex Alliance|00000|0.0|||
+90|New Mexico|Santa Teresa-San Jeronimo (New Mexico and Mexico)|00000|0.0|||
+91|New York|Albany|10580|0.0|4.000%|4.750%|8.750%
+92|New York|Buffalo-Rochester|40380|0.0|4.000%|4.750%|8.750%
+93|New York|Mount Vernon|35620|0.0|4.000%|4.750%|8.750%
+94|New York|New Rochelle|35620|0.0|4.000%|4.750%|8.750%
+95|New York|New York City-Long Island-Hudson Valley|35620|1.0|4.000%|4.750%|8.750%
+96|New York|Syracuse-Utica|45060|0.0|4.000%|4.750%|8.750%
+97|New York|Westchester|35614|0.0|4.000%|4.750%|8.750%
+98|North Carolina|Charlotte-York County|16740|0.0|4.750%|2.500%|7.250%
+99|North Carolina|Greensboro|24660|0.0|4.750%|2.000%|6.750%
+100|North Carolina|Hickory|25860|0.0|4.750%|2.000%|6.750%
+101|North Carolina|Raleigh|39580|1.0|4.750%|2.000%|6.750%
+102|Nova Scotia, Canada|Halifax||0.0|5.750%|2.250%|8.000%
+103|Ohio|Cincinnati-Dayton|19380|0.0|5.750%|2.250%|8.000%
+104|Ohio|Cleveland|17460|0.0|5.750%|2.250%|8.000%
+105|Ohio|Columbus|18140|1.0|5.750%|1.750%|7.500%
+106|Ohio|Toledo-Maumee|45780|0.0|5.750%|1.500%|7.250%
+107|Oklahoma|Oklahoma City|36420|0.0|4.500%|3.875%|8.375%
+108|Oklahoma|Tulsa|46140|0.0|4.500%|4.017%|8.517%
+109|Ontario, Canada|Detroit-Windsor (Canada and Michigan)|00000|0.0|||
+110|Ontario, Canada|Hamilton|00000|0.0|||
+111|Ontario, Canada|Ottawa-Gatineau|00000|0.0|||
+112|Ontario, Canada|Sault Ste. Marie (Canada and Michigan)|00000|0.0|||
+113|Ontario, Canada|Simcoe County|00000|0.0|||
+114|Ontario, Canada|Toronto|00000|1.0|||
+115|Oregon|Portland|38900|0.0|0.000%|0.000%|0.000%
+116|Pennsylvania|Delaware County|34620|0.0|6.000%|1.000%|7.000%
+117|Pennsylvania|Harrisburg|25420|0.0|6.000%|1.000%|7.000%
+118|Pennsylvania|Lehigh Valley|10900|0.0|6.000%|1.000%|7.000%
+119|Pennsylvania|Philadelphia|37964|1.0|6.000%|2.000%|8.000%
+120|Pennsylvania|Pittsburgh|38300|1.0|6.000%|1.000%|7.000%
+121|Pennsylvania|Northeast Pennsylvania|00000|0.0|6.000%|1.000%|7.000%
+122|Puerto Rico|Has declined to reveal details|00000|0.0|||
+123|Quebec, Canada|Greater Montreal|00000|0.0|||
+124|Querétaro, Mexico|Details not known|00000|0.0|||
+125|Rhode Island|East Providence|77200|0.0|7.000%|0.000%|8.000%
+126|Rhode Island|North Kingstown|77200|0.0|7.000%|0.000%|8.000%
+127|Rhode Island|Pawtucket-Central Falls|77200|0.0|7.000%|0.000%|8.000%
+128|Rhode Island|Providence|77200|0.0|7.000%|0.000%|8.000%
+129|Rhode Island|Richmond|77200|0.0|7.000%|0.000%|8.000%
+130|Rhode Island|Warwick|77200|0.0|7.000%|0.000%|8.000%
+131|Rhode Island|Woonsocket|77200|0.0|7.000%|0.000%|8.000%
+132|South Carolina|Greenville-Spartanburg|24860|0.0|7.000%|0.000%|8.000%
+133|Tennessee|Knoxville|28940|0.0|7.000%|2.250%|9.250%
+134|Tennessee|Memphis|32820|0.0|7.000%|2.250%|9.250%
+135|Tennessee|Nashville|34980|1.0|7.000%|2.250%|9.250%
+136|Texas|Austin|12420|1.0|6.250%|2.000%|8.250%
+137|Texas|Dallas-Fort Worth|19124|1.0|6.250%|2.000%|8.250%
+138|Texas|Frisco|00000|0.0|6.250%|2.000%|8.250%
+139|Texas|Houston|26420|0.0|6.250%|2.000%|8.250%
+140|Texas|Milam County|00000|0.0|6.250%|2.000%|8.250%
+141|Utah|Submitted a statewide bid|00000|0.0|5.000%|1.000%|6.000%
+142|Virginia|Alexandria-Arlington-Loudoun-Fairfax (Northern Virginia)|47894|0.0|5.300%|0.700%|6.000%
+143|Virginia|Great Richmond|40060||5.300%|0.000%|5.300%
+144|Virginia|Hampton Roads|47260||5.300%|0.700%|6.000%
+145|Virginia|Northern Virginia|00000|1.0|5.300%|0.700%|6.000%
+146|Washington|Pudget Sound Region|00000|0.0|6.500%|3.100%|9.600%
+147|Washington|Tacoma-Pierce County|42660|0.0|6.500%|3.100%|9.600%
+148|Washington, DC||47894|1.0|||
+149|Wisconsin|Madison|31540|0.0|5.000%|0.500%|5.500%
+150|Wisconsin|Milwaukee|33340|0.0|5.000%|0.600%|5.600%
