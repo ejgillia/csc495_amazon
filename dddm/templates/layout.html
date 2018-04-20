@@ -1,0 +1,126 @@
+<!doctype html>
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+<title>DDDM</title>
+<link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}">
+<div class=page>
+
+  <form action="{{ url_for('weights') }}" method=post>
+    <dl>
+
+	<div>
+		Logistics <input type="text" name="logistics" value="0">
+		<button id="breakdown-logistics" type="button" class="btn btn-primary">Breakdown</button>
+		<br>
+		<div id="category-logistics" style="display:none;padding-left:5em;">
+			Travel time <input type="text" name="travel_time" placeholder="Value 0 ... 1"> <br>
+			Hours spent in congestion <input type="text" name="hours_spent_in_congestion" placeholder="Value 0 ... 1"> <br>
+			ICI <input type="text" name="ICI" placeholder="Value 0 ... 1"> <br>
+			PEAK <input type="text" name="peak" placeholder="Value 0 ... 1"> <br>
+			Daytime <input type="text" name="daytime" placeholder="Value 0 ... 1"> <br>
+			Overall <input type="text" name="overall" placeholder="Value 0 ... 1"> <br>
+			Transit Score <input type="text" name="transit_score" placeholder="Value 0 ... 1"> <br>
+			Road Length <input type="text" name="road_length" placeholder="Value 0 ... 1"> <br>
+			Highway Length <input type="text" name="highway_length" placeholder="Value 0 ... 1"> <br>
+
+			Airway Connectivity <input type="text" name="airway_connectivity" placeholder="0">
+			<button id="breakdown-logistics-airway" type="button" class="btn btn-primary">Breakdown</button>
+			<div id="category-logistics-airway" style="display:none;padding-left:5em;">
+				Flights to Seattle<input type="text" name="seattle" placeholder="Value 0 ... 1"> <br>
+				Flights to New York <input type="text" name="new_york" placeholder="Value 0 ... 1"> <br>
+				Flights to San Francisco <input type="text" name="san_francisco" placeholder="Value 0 ... 1"> <br>
+				Flights to WashingtonDC <input type="text" name="washington_dc" placeholder="Value 0 ... 1"> <br>
+			</div>
+		</div>
+	</div>
+
+	<div>
+		Site Building <input type="text" name="site_building" value="0">
+		<button id="breakdown-site" type="button" class="btn btn-primary">Breakdown</button>
+
+		<br>
+
+		<div id="category-site" style="display:none;padding-left:5em;">
+			Workforce <input type="text" name="workforce" placeholder="Value 0 ... 1"> <br>
+			Infrastructure <input type="text" name="Infrastructure" placeholder="Value 0 ... 1"> <br>
+			Cost of doing business <input type="text" name="cost_of_doing_business" placeholder="Value 0 ... 1"> <br>
+			Economy <input type="text" name="economy" placeholder="Value 0 ... 1"> <br>
+			Technology and Innovation <input type="text" name="technology_and_innovation" placeholder="Value 0 ... 1"> <br>
+			Education <input type="text" name="education" placeholder="Value 0 ... 1"> <br>
+			Business Friendly <input type="text" name="business_friendly" placeholder="Value 0 ... 1"> <br>
+			Access to Capital <input type="text" name="access_to_capital" placeholder="Value 0 ... 1"> <br>
+			
+
+			Taxes <input type="text" name="taxes" placeholder="0">
+			<button id="breakdown-site-taxes" type="button" class="btn btn-primary">Breakdown</button>
+			<div id="category-site-taxes" style="display:none;padding-left:5em;">
+				State Tax <input type="text" name="state_tax" placeholder="Value 0 ... 1"> <br>
+				Local Tax <input type="text" name="local_tax" placeholder="Value 0 ... 1"> <br>
+				Sales Tax <input type="text" name="sales_tax" placeholder="Value 0 ... 1"> <br>
+			</div>
+		</div>
+	</div>
+
+	<div>
+		Labor force <input type="text" name="labor_force" value="0">
+		<button id="breakdown-labor_force" type="button" class="btn btn-primary">Breakdown</button>
+		<br>
+		<div id="category-labor_force" style="display:none;padding-left:5em;">
+			
+			Average Commute Time <input type="text" name="average_commute_time" placeholder="Value 0 ... 1"> <br>
+			Number of Graduates (computer related fields) <input type="text" name="number_of_graduates" placeholder="Value 0 ... 1"> <br>
+			
+		</div>
+	</div>
+
+	<div>
+		Cultural
+		<input type="text" name="cultural" value="0">
+		<button id="breakdown-cultural" type="button" class="btn btn-primary">Breakdown</button>
+		<br>
+		<div id="category-cultural" style="display:none;padding-left:5em;">
+			Diversity <input type="text" name="diversity" placeholder="Value 0 ... 1"> <br>
+			Nearby colleges <input type="text" name="colleges" placeholder="Value 0 ... 1"> <br>
+			Quality of Life <input type="text" name="quality_of_life" placeholder="Value 0 ... 1"> <br>
+			2017 "All City" Rank <input type="text" name="all_city_rank" placeholder="Value 0 ... 1"> <br>
+			QoL <input type="text" name="qol" placeholder="Value 0 ... 1"> <br>
+		</div>
+	</div>
+	
+      <dd><input type=submit value=submit>
+    </dl>
+  </form>
+	<script>
+		$('#breakdown-logistics').click(function() {
+		    $('#category-logistics').show();
+		});
+
+		$('#breakdown-labor_force').click(function() {
+		    $('#category-labor_force').show();
+		});
+
+		$('#breakdown-site').click(function() {
+		    $('#category-site').show();
+		});
+		$('#breakdown-cultural').click(function() {
+		    $('#category-cultural').show();
+		});
+
+		$('#breakdown-site-taxes').click(function() {
+		    $('#category-site-taxes').show();
+		});
+
+		$('#breakdown-logistics-airway').click(function() {
+		    $('#category-logistics-airway').show();
+		});
+	</script>
+</div>
