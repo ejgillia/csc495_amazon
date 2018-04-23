@@ -1,4 +1,4 @@
-state,city,is_top_twenty_x,InfrastructureRank,Growth and Economy,Prosperity,Human Capital,Average Commute Time,diversity_rank,college_score,QoL,Seattle,New York,San Francisco,Washington DC,Travel Time,Hours Spent in Congestion,PEAK,Daytime,Transit Score,Road Length [Miles],Highway Length [Miles],Technology and Innovation,Business Friendliness,Total Graduates,StateTax,LocalSalesTax
+state,city,is_top_twenty_x,Infrastructure,Growth and Economy,Prosperity,Human Capital,Average Commute Time,diversity_rank,college_score,QoL,Seattle,New York,San Francisco,Washington DC,Travel Time,Hours Spent in Congestion,PEAK,Daytime,Transit Score,Road Length [Miles],Highway Length [Miles],Technology and Innovation,Business Friendly,Total Graduates,StateTax,Local Tax
 Alabama,Birmingham – Alabama,FALSE,170,62,31,41,20.9445,395,164,172.01,1,0,1,0,30,48,19,7,35,7892,200,38,26,870,4,6
 Alaska,Anchorage – Alaska,FALSE,140,70,100,90,18.7717,120,0,180.33,4,9,1,0,17,48,19,7,35,1000,50,39,75,462,0,0
 Arizona,Greater Phoenix – Arizona,FALSE,140,70,100,90,23.5146,55,160,159.57,1,1,1,1,20,48,19,7,35,34994,484,45,108,1504,5.6,3
@@ -113,3 +113,4 @@ Virginia,Hampton Roads – Virginia,FALSE,175,32,57,44,21.5932,205,0,180,1,0,1,0
 Virginia,Northern Virginia – Virginia,TRUE,96,33,58,45,35.74,35,745,180,3,3,3,0,25,20,11,5,27,2000,50,16,157,0,5.3,0.7
 Wisconsin,Milwaukee – Virginia,FALSE,99,79,30,7,21.7242,114,180,167.29,3,2,1,1,14,21,8,4,49,10590,179,42,99,1795,5,0.6
 Wisconsin,Madison – Virginia,FALSE,84,51,10,78,18.5355,257,186,212.01,3,2,1,1,81,9,5,2,38,2000,50,40,47,2235,5,0.5
+Washington D.C. ,Washington D.C.,TRUE,,,,,,,,,,,,,,,,,,,,,,,,

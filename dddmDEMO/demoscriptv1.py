@@ -5,7 +5,31 @@ from pandas import ExcelWriter
 from sklearn import preprocessing
 import math
 
-def userValue(userWeights,temp,temp1):
+def userValue(userWeights):
+
+	df = pd.read_csv('dddmfinaldatav0.csv',delimiter = ",")
+	df = df.dropna()
+	df = df.reset_index(drop=True)
+
+
+	logreg = linear_model.LogisticRegression(C=1e5)
+	temp = df.iloc[:,3:].copy()
+	temp = temp.convert_objects(convert_numeric=True)
+	temp1 = df.iloc[:,:3].copy()
+
+
+	x = temp.values #returns a numpy array
+	min_max_scaler = preprocessing.MinMaxScaler()
+	x_scaled = min_max_scaler.fit_transform(x)
+	temp = pd.DataFrame(x_scaled, columns=temp.columns)
+
+	paramlst = ['Infrastructure', 'Growth and Economy', 'Prosperity', 'Human Capital', 'Average Commute Time', 'diversity_rank', 'Travel Time', 'Hours Spent in Congestion', 'PEAK', 'Daytime', 'Technology and Innovation', 'Business Friendly', 'StateTax', 'Local Tax']
+	for i in paramlst:
+		temp[i] = 1 - temp[i]
+
+	logreg = linear_model.LogisticRegression(C=1e5, fit_intercept=True)
+	md1 = logreg.fit(temp,temp1.iloc[:,2])
+
 	paramWeight = {}
 	paramNames = temp.columns
 
@@ -32,9 +56,33 @@ def userValue(userWeights,temp,temp1):
 	orderedcityscore = [x[1] for x in cityscore]
 	maxPossibleScore = sum(userWeights)
 	print(cityscore)
+	return zip(orderedcity,orderedcityscore),maxPossibleScore
 
 
-def ourModel(temp,temp1,myCity):
+def ourModel(myCity):
+	df = pd.read_csv('dddmfinaldatav0.csv',delimiter = ",")
+	df = df.dropna()
+	df = df.reset_index(drop=True)
+
+
+	logreg = linear_model.LogisticRegression(C=1e5)
+	temp = df.iloc[:,3:].copy()
+	temp = temp.convert_objects(convert_numeric=True)
+	temp1 = df.iloc[:,:3].copy()
+
+
+	x = temp.values #returns a numpy array
+	min_max_scaler = preprocessing.MinMaxScaler()
+	x_scaled = min_max_scaler.fit_transform(x)
+	temp = pd.DataFrame(x_scaled, columns=temp.columns)
+
+	paramlst = ['Infrastructure', 'Growth and Economy', 'Prosperity', 'Human Capital', 'Average Commute Time', 'diversity_rank', 'Travel Time', 'Hours Spent in Congestion', 'PEAK', 'Daytime', 'Technology and Innovation', 'Business Friendly', 'StateTax', 'Local Tax']
+	for i in paramlst:
+		temp[i] = 1 - temp[i]
+
+	logreg = linear_model.LogisticRegression(C=1e5, fit_intercept=True)
+	md1 = logreg.fit(temp,temp1.iloc[:,2])
+
 	dicta = {}
 
 	for i in range(len(temp.columns)):
@@ -77,9 +125,35 @@ def ourModel(temp,temp1,myCity):
 
 	if myCity == 1:
 		return topCityIndex
+	else:
+		return zip(orderedcity,orderedcityscore),maxPossibleScore
 
 
-def makeMyCityWin(temp,temp1,myCityName,winnerCityId):
+def makeMyCityWin(myCityName,winnerCityId):
+
+	df = pd.read_csv('dddmfinaldatav0.csv',delimiter = ",")
+	df = df.dropna()
+	df = df.reset_index(drop=True)
+
+
+	logreg = linear_model.LogisticRegression(C=1e5)
+	temp = df.iloc[:,3:].copy()
+	temp = temp.convert_objects(convert_numeric=True)
+	temp1 = df.iloc[:,:3].copy()
+
+
+	x = temp.values #returns a numpy array
+	min_max_scaler = preprocessing.MinMaxScaler()
+	x_scaled = min_max_scaler.fit_transform(x)
+	temp = pd.DataFrame(x_scaled, columns=temp.columns)
+
+	paramlst = ['Infrastructure', 'Growth and Economy', 'Prosperity', 'Human Capital', 'Average Commute Time', 'diversity_rank', 'Travel Time', 'Hours Spent in Congestion', 'PEAK', 'Daytime', 'Technology and Innovation', 'Business Friendly', 'StateTax', 'Local Tax']
+	for i in paramlst:
+		temp[i] = 1 - temp[i]
+
+	logreg = linear_model.LogisticRegression(C=1e5, fit_intercept=True)
+	md1 = logreg.fit(temp,temp1.iloc[:,2])
+
 
 	colNames = temp.columns
 	cityNameAndIndex = {}
@@ -106,8 +180,10 @@ def makeMyCityWin(temp,temp1,myCityName,winnerCityId):
 	print(paramName)
 	print(improveMargin)
 
+	return zip(paramName,improveMargin)
 
 
+'''
 df = pd.read_csv('dddmfinaldatav0.csv',delimiter = ",")
 df = df.dropna()
 df = df.reset_index(drop=True)
@@ -124,29 +200,30 @@ min_max_scaler = preprocessing.MinMaxScaler()
 x_scaled = min_max_scaler.fit_transform(x)
 temp = pd.DataFrame(x_scaled, columns=temp.columns)
 
-paramlst = ['InfrastructureRank', 'Growth and Economy', 'Prosperity', 'Human Capital', 'Average Commute Time', 'diversity_rank', 'Travel Time', 'Hours Spent in Congestion', 'PEAK', 'Daytime', 'Technology and Innovation', 'Business Friendliness', 'StateTax', 'LocalSalesTax']
+paramlst = ['Infrastructure', 'Growth and Economy', 'Prosperity', 'Human Capital', 'Average Commute Time', 'diversity_rank', 'Travel Time', 'Hours Spent in Congestion', 'PEAK', 'Daytime', 'Technology and Innovation', 'Business Friendly', 'StateTax', 'Local Tax']
 for i in paramlst:
 	temp[i] = 1 - temp[i]
 
 logreg = linear_model.LogisticRegression(C=1e5, fit_intercept=True)
 md1 = logreg.fit(temp,temp1.iloc[:,2])
-  
+'''  
 
+'''
 #User Functionality
 print("User Functionality Starts")
 weightEnteredByUser = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24]
-userValue(weightEnteredByUser,temp,temp1)
+userValue(weightEnteredByUser)
 print("User Functionality Ends\n\n\n")
 
 
 #Default Functionality for Amazon
 print("Model Functionality Starts")
-ourModel(temp,temp1,0)
+ourModel(0)
 print("Model Functionality Ends\n\n\n")
 
 #Make my city win
 print("Make my city win Functionality Starts")
 cityName = "Providence - Rhode Island"
-makeMyCityWin(temp,temp1,cityName,ourModel(temp,temp1,1))
+makeMyCityWin(cityName,ourModel(1))
 print("Make my city win Functionality Ends")
-
+'''
