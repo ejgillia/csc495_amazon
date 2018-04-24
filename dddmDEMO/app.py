@@ -8,9 +8,21 @@ app = Flask(__name__)
 def hello_world():
 	return 'Hello, World!'
 
+@app.route("/select", methods=['POST', 'GET'])
+def select():
+	if request.method == "GET":
+		return render_template("city_input.html")
+
+	if request.method == "POST":
+		city_name = request.form["city_name"]
+		answer = demoscriptv1.makeMyCityWin(city_name, demoscriptv1.ourModel(1))
+		return render_template("city_output.html", cities = answer)
+	
+
 @app.route('/cities')
 def show_cities():
-	return render_template("cities.html", cities = ["xd", "ezpz"])
+	guesses = demoscriptv1.ourModel(0)
+	return render_template('displayscore.html',cities=guesses[0],MaxScore=guesses[1])
 
 @app.route('/weights', methods=['POST', 'GET'])
 def weights():
