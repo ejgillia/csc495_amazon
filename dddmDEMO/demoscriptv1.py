@@ -47,14 +47,14 @@ def userValue(userWeights):
 		total = 0
 		for idx, val in enumerate(row):
 			total = total + paramWeight[headerList[idx]]*val
-		cityscore[citylist[counter]] = total
+		cityscore[citylist[counter]] = float("{0:.2f}".format(total))
 		scores.append(total)
 		counter+=1
 
 	cityscore = sorted(cityscore.items(), key=lambda x: x[1], reverse=True)
 	orderedcity =  [x[0] for x in cityscore]
 	orderedcityscore = [x[1] for x in cityscore]
-	maxPossibleScore = sum(userWeights)
+	maxPossibleScore = float("{0:.2f}".format(sum(userWeights)))
 	print(cityscore)
 	return zip(orderedcity,orderedcityscore),maxPossibleScore
 
@@ -105,7 +105,7 @@ def ourModel(myCity):
 
 			total = total + (math.exp(dicta[headerList[idx]]) / (1 + math.exp(dicta[headerList[idx]])))*val
 		total = total + math.exp(interceptcoefficient) / (1 + math.exp(interceptcoefficient))
-		cityscore[citylist[counter]] = total
+		cityscore[citylist[counter]] = float("{0:.2f}".format(total))
 		scores.append(total)
 		cityNameAndIndex[citylist[counter]] = id
 		counter+=1
@@ -154,7 +154,11 @@ def makeMyCityWin(myCityName,winnerCityId):
 	logreg = linear_model.LogisticRegression(C=1e5, fit_intercept=True)
 	md1 = logreg.fit(temp,temp1.iloc[:,2])
 
+	dicta = {}
+	for i in range(len(temp.columns)):
+		dicta[temp.columns[i]] = float("{0:.2f}".format(math.exp(md1.coef_[0][i]) / (1 + math.exp(md1.coef_[0][i]))))
 
+	paramImportance = []
 	colNames = temp.columns
 	cityNameAndIndex = {}
 	citylist = list(temp1['city'])	
@@ -162,6 +166,7 @@ def makeMyCityWin(myCityName,winnerCityId):
 	for (id, row) in temp.iterrows():
 		cityNameAndIndex[citylist[counter]] = id
 		counter+=1
+
 
 	myCityId = cityNameAndIndex[myCityName]
 	myCityParameters = list(temp.loc[myCityId])
@@ -171,16 +176,18 @@ def makeMyCityWin(myCityName,winnerCityId):
 
 	for i in range(len(myCityParameters)):
 		if winnerCityParameters[i] > myCityParameters[i]:
-			toBeImprovedParameters[colNames[i]] = winnerCityParameters[i] - myCityParameters[i]
+			toBeImprovedParameters[colNames[i]] = float("{0:.2f}".format(winnerCityParameters[i] - myCityParameters[i]))*100
+			paramImportance.append(dicta[colNames[i]])
 
 	toBeImprovedParameters = sorted(toBeImprovedParameters.items(), key=lambda x: x[1], reverse=True)
 	paramName =  [x[0] for x in toBeImprovedParameters]
 	improveMargin = [x[1] for x in toBeImprovedParameters]
 
+
 	print(paramName)
 	print(improveMargin)
 
-	return zip(paramName,improveMargin)
+	return zip(paramName,improveMargin,paramImportance)
 
 
 '''
